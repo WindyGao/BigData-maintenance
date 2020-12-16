@@ -37,7 +37,7 @@ Took 0.2507 seconds
 
 ## 解决办法
 
-```Java
+```shell script
 hbase hbck -j hbase-hbck2-1.0.0-SNAPSHOT.jar setTableState 'COC_CUSTOMER_GROUP_20201027' DISABLED
 ```
 
